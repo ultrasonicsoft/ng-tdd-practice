@@ -8,7 +8,7 @@ describe('tdd-practice App', () => {
   });
 
   it('should display welcome message', () => {
-    page.navigateTo();
+    page.navigateTo();    
     expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });
